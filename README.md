@@ -24,4 +24,4 @@ npm install
 
 ## Notes
 
-For full details on every piece of code in this CRUD Starter Frontend, visit the companion [Medium article here](https://medium.com/@olinations/build-a-crud-template-using-react-bootstrap-express-postgres-9f84cc444438?source=friends_link&sk=51028bf98ff92bc659d3edbb539a82bb).
+For full details on every piece of code in this CRUD Starter Frontend visit the companion [Medium article here](https://medium.com/@olinations/build-a-crud-template-using-react-bootstrap-express-postgres-9f84cc444438?source=friends_link&sk=51028bf98ff92bc659d3edbb539a82bb).
