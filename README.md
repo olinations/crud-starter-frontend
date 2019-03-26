@@ -1,31 +1,23 @@
-# CRUD Starter API
+# CRUD Starter Frontend
 
-Start a CRUD api quickly using Node, Express & Postgres.
+This is the React frontend that goes with the [CRUD Starter API backend](https://github.com/olinations/crud-starter-api).
 
-Serves four routes from one page with a separate function for get, post, put and delete requests.
+It uses Bootstrap styles and reactstrap, which creates Bootstrap components.
 
-All code can be edited and replaced to fit the needs of the project being built.
+## Instructions
 
-## Install Postgres &amp; Create a Database
-
-Change the database to MYSQL. Be sure to change the database and credentials in server.js
+**1. Clone this repo**
 
 ```
-brew services start postgresql
-createdb crud-starter-api
+git clone https://github.com/olinations/crud-starter-frontend.git
 ```
 
-**Open pSequel and create a table for our database**
+**2. NPM install React and all dependencies**
 
 ```
-CREATE TABLE testtable1 (
- id serial PRIMARY KEY,
- first VARCHAR(100),
- last VARCHAR(100),
- email text UNIQUE NOT NULL,
- phone VARCHAR(100),
- location VARCHAR(100),
- hobby VARCHAR(100),
- added TIMESTAMP NOT NULL
-);
+npm install
 ```
+
+## Notes
+
+For full details on every piece of code in this CRUD Starter Frontend, visit the companion [Medium article here](https://medium.com/@olinations/build-a-crud-template-using-react-bootstrap-express-postgres-9f84cc444438?source=friends_link&sk=51028bf98ff92bc659d3edbb539a82bb).
